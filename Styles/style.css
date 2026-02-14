@@ -1,0 +1,44 @@
+/* -------------------------------- Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* -------------------------------- CSS Variables */
+:root {
+    /* Theme Colors */
+    --color-background-rgb: 39, 38, 46;    /* A dark background color for the overall theme */ /* Actual color: Gray */
+    --color-background: rgb(var(--color-background-rgb));
+    --color-background-contrast: #1e293b; /* A darker background for components/sections contrast */
+
+    --color-highlight-rgb: 79, 30, 103; /* Accent color for contrast elements */ /* Actual color: Purple*/
+    --color-highlight: rgb(var(--color-highlight-rgb));
+
+    /* Fonts */
+    --font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+    --text-h1: 2.5rem;   /* 40px */
+    --text-h2: 2.0rem;   /* 32px */
+    --text-h3: 1.5rem;   /* 24px */
+    --text-body: 1rem;   /* 16px */
+    --text-small: 0.875rem; /* 14px */
+
+        /* Colors */
+    --color-text-main: #f1f5f9; /* Main text color for titles or subtitles*/
+    --color-text-secondary: #d7d7d7; /* Secondary text color for body text or less important information */  
+    --color-text-highlight: #ba67e2; /* Accent color for important text */
+
+}
+
+/* Global rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-background);
+    color: var(--color-text-secondary);
+    
+    font-weight: 400; 
+}
+
+/* ---------------------------------------------- Classes */
