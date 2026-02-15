@@ -3,11 +3,11 @@
     /* Theme Colors */
     --color-background-rgb: 39, 38, 46;    /* A dark background color for the overall theme */ /* Actual color: Gray */
     --color-background: rgb(var(--color-background-rgb));
-    --color-background-contrast: #1e293b; /* A darker background for components/sections contrast */
+    --color-background-contrast: #1d1c23; /* A darker background for components/sections contrast */
 
     --color-highlight-rgb: 126, 12, 180; /* Accent color for contrast elements */ /* Actual color: Purple*/
-    --color-highlight: rgb(var(--color-highlight-rgb));
-    --color-accent-rgb: 187, 107, 226;; /* A lighter accent color for highlights or interactive elements */
+    --color-highlight: #ba67e2;
+    --color-accent-rgb: 255, 159, 225; /* A lighter accent color for highlights or interactive elements ; rgb(255 159 225)*/
     --color-accent: rgb(var(--color-accent-rgb));
 
     --color-surface: #282828; /* A surface color for cards, modals, or other elevated elements */

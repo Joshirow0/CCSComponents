@@ -25,12 +25,16 @@
 }
 
 .btn--primary:hover {
-    border: 2px solid rgb(196, 71, 255);
+    border: 2px solid var(--color-accent);
 }
 
 .btn--secondary {
     background-color: #fff;
     color: #000;
+}
+
+.btn--secondary:hover {
+    border: 2px solid #727272;
 }
 
 .btn--outline {
