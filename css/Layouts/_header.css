@@ -22,11 +22,3 @@
 .header__nav-bar {
     padding-right: var(--space-m);
 }
-
-.header__nav-list {
-    list-style: none;
-    display: flex;
-    gap: var(--space-l);
-    margin: 0;
-    padding: 0;
-}
