@@ -3,20 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--space-m) var(--space-l);
-    background-color: rgba(0,0,0,0.8);
 }
 
-.navbar__link {
-    color: var(--color-text-muted);
-    text-decoration: none;
-    margin-left: var(--space-m);
+.navbar__list {
+    list-style: none;
+    display: flex;
+    gap: var(--space-l);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__link { /* Link designed to be in an <a> tag, just to make font a little bold; Combine with link */
     font-weight: 700;
-}
-
-.navbar__link:hover {
-    color: #fff;
-
 }
 
 /* Breadcrumbs (Migas de pan) */

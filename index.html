@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1 class="heading--h1">Mi Pagina de Estilos</h1>
+    <header class="header">
+        <div>
+            <a href="#" class="header__logo-link">Mis estilos CSS</a>
+        </div>
+        
+        <nav class="header__nav-bar navbar">
+            <ul class="navbar__list">
+                <li><a href="#" class="navbar__link link link--main">Inicio</a></li>
+                <li><a href="#" class="navbar__link link link--main">Proyectos</a></li>
+                <li><a href="#" class="navbar__link link link--main">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main class="doc-container">
         <section class="doc-section">
             <h2 class="heading--h2">Botones</h2>
@@ -42,7 +53,7 @@
             </div>          
         </section>
 
-<section class="doc-section">
+        <section class="doc-section">
             <h2 class="heading--h2" style="margin-bottom:20px;">Alertas</h2>
             <div class="alert alert--success">Operación realizada con éxito</div>
             <div class="alert alert--warning">Advertencia: Revisa tu conexión</div>
