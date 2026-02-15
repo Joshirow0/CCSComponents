@@ -12,7 +12,7 @@
     color: var(--color-text-secondary);
 }
 .link--main:hover {
-    color: var(--color-accent);
+    color: var(--color-highlight);
 }
 
 .link--secondary {
