@@ -35,22 +35,7 @@
             <h2 class="heading--h2">Enlaces</h2>
             <a href="#" class="link link--main">Enlace Principal</a>
             <a href="#" class="link link--secondary">Enlace Secundario</a>
-        </section>
-
-        <section class="doc-section">
-            <div class="form-group">
-                <label for="input-text" class="form__label">Campo de Texto</label>
-                <input type="text" id="input-text" class="form__input" placeholder="Escribe algo...">
-            </div>   
-            <div class="form-group">
-            <label for="input-select" class="form__label">Selecciona una opción</label>
-            <select id="input-select" class="form__select">
-                <option value="">Selecciona...</option>
-                <option value="opcion1">Opción 1</option>
-                <option value="opcion2">Opción 2</option>
-                <option value="opcion3">Opción 3</option>
-            </select>
-            </div>          
+            <a href="#" class="link link--outlined">Enlace de Contorno</a>
         </section>
 
         <section class="doc-section">
@@ -86,8 +71,8 @@
 
                 <article class="card card--project">
     
-                    <div class="card__header-icon">
-                        <i class="fa-solid fa-rocket"></i>
+                    <div class="card__header-icon"> <!-- this class reemplaces card__media in cases where there is no image -->
+                        <i class="fa-solid fa-rocket"></i> <!-- if <img> is used add class "card__image" to tag -->
                     </div>
 
                     <div class="card__body">
@@ -106,6 +91,36 @@
 
                 </article>
             </div>
+        </section>
+
+        <section class="doc-section">
+            <h2 class="heading--h2">Formularios</h2>
+
+            <div class="form-group">
+                <label for="input-text" class="form__label">Campo de Texto</label>
+                <input type="text" id="input-text" class="form__input" placeholder="Escribe algo...">
+            </div>
+
+            <div class="form-group">
+            <label for="input-select" class="form__label">Selecciona una opción</label>
+            <select id="input-select" class="form__select">
+                <option value="">Selecciona...</option>
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+            </div>
+
+             <div class="form-group">
+                <label for="input-checkbox" class="form__label">Acepto los términos y condiciones</label>
+                <input type="checkbox" id="input-checkbox" class="form__checkbox">
+            </div>
+
+            <div class="form-group">
+                <label for="textarea" class="form__label">Comentarios</label>
+                <textarea id="textarea" class="form__textarea" placeholder="Escribe tus comentarios aquí..."></textarea>
+            </div>
+            <button class="btn btn--outline">Enviar</button>
         </section>
 
         <section class="doc-section">
@@ -129,6 +144,68 @@
         </section>
 
     </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+
+                <div class="footer__column">
+                    <h4 class="footer__title">Enlaces</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="link link--secondary">Inicio</a></li>
+                        <li><a href="#" class="link link--secondary">Proyectos</a></li>
+                        <li><a href="#" class="link link--secondary">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__title">Enlaces</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="link link--secondary">Enlace 1</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 2</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__title">Enlaces</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="link link--secondary">Enlace 1</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 2</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__title">Enlaces</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="link link--secondary">Enlace 1</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 2</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__title">Enlaces</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="link link--secondary">Enlace 1</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 2</a></li>
+                        <li><a href="#" class="link link--secondary">Enlace 3</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="footer__bottom">
+                <ul class="footer__legal">
+                    <li class="footer__legal-item"><a href="#" class="link link--outlined">Términos de Uso</a></li>
+                    <li class="footer__legal-item"><a href="#" class="link link--outlined">Política de Privacidad</a></li>
+                    <li class="footer__legal-item"><a href="#" class="link link--outlined">Contacto</a></li>
+                </ul>
+                <span class="footer__copyright">© 2026 JRUO</span>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

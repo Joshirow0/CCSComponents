@@ -7,6 +7,7 @@
 @import url('Base/_base.css');
 
 /* Layouts */
+@import url('Layouts/_footer.css');
 @import url('Layouts/_header.css');
 @import url('Layouts/_layouts.css');
 
