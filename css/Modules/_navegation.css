@@ -35,12 +35,3 @@
 .breadcrumbs__item:last-child::after {
     content: '';
 }
-
-.breadcrumbs__link {
-    color: inherit;
-    text-decoration: none;
-}
-
-.breadcrumbs__link:hover {
-    text-decoration: underline;
-}
