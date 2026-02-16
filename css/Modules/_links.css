@@ -16,6 +16,7 @@
 }
 
 .link--secondary, .link--outlined {
+    text-decoration: none;
     color: var(--color-text-muted);
     transition: none;
 }

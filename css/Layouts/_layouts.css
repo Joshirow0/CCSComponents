@@ -1,14 +1,29 @@
 /* Sections */
-.doc-container { 
+.doc-container { /* container for <main> */
     max-width: 1000px;
     margin: 0 auto;
     padding: 40px;
 }
 
-.doc-section { 
-    margin-bottom: 60px;
-    border-bottom: 1px solid #333;
+.doc-section {
+    padding-top: 60px;
+    padding-left: var(--space-l);
+    padding-right: var(--space-l);
     padding-bottom: 40px;
+    margin-top: var(--space-s);
+    margin-bottom: var(--space-s);
+    border-bottom: 1px solid #333;
+
+    border-radius: 10px;
+    
+}
+
+.doc-section:first-child {
+    padding-top: 0 !important;
+}
+
+.doc-section--contrast{
+    background-color: var(--color-background-contrast);
 }
 
 .grid-demo { 
